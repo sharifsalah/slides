@@ -1093,7 +1093,7 @@ article.smaller q:before, article.smaller q:after {
   color: darkgrey;
   position: absolute;
   bottom: 70px;
-  left: 60px;
+  right: 60px;
 }
 
 /* line 733, ../scss/default.scss */
@@ -1212,7 +1212,7 @@ article.smaller q:before, article.smaller q:after {
 /* line 803, ../scss/default.scss */
 .logoslide img {
   width: 383px;
-  height: 92px;
+  height: 383px;
 }
 
 /* line 809, ../scss/default.scss */
