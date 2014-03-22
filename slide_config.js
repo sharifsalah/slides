@@ -28,12 +28,5 @@ var SLIDE_CONFIG = {
     twitter: '@sharif_salah',
     www: 'http://www.you.com',
     github: 'http://github.com/sharifsalah'
-  }/*, {
-    name: 'Second Name',
-    company: 'Job Title, Google',
-    gplus: 'http://plus.google.com/1234567890',
-    twitter: '@yourhandle',
-    www: 'http://www.you.com',
-    github: 'http://github.com/you'
-  }*/]
+  }]
 };
