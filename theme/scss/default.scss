@@ -11,7 +11,7 @@
 }
 
 @mixin backdrop {
-  @include background(linear-gradient(white, white 85%, $gray-1));
+  /*@include background(linear-gradient(white, white 85%, $gray-1));*/
   background-color: white;
 }
 
@@ -146,7 +146,7 @@ slides > slide {
       position: absolute;
       bottom: $slide-top-bottom-padding / 2;
       left: $slide-left-right-padding;
-      background: url(../../images/google_developers_icon_128.png) no-repeat 0 50%;
+      background: url(../../images/SVG/GDE-2014-Badge-Cloud.svg) no-repeat 0 50%;
       @include background-size($brand-small-icon-size $brand-small-icon-size);
       padding-left: $brand-small-icon-size + 10;
       height: $brand-small-icon-size;
@@ -165,7 +165,6 @@ slides > slide {
   &.title-slide {
     &:after {
       content: '';
-      //background: url(../../images/io2012_logo.png) no-repeat 100% 50%;
       //@include background-size(contain);
       position: absolute;
       bottom: $slide-top-bottom-padding;
